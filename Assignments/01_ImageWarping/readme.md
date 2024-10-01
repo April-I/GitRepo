@@ -251,4 +251,8 @@ python run_point_transform.py
 <img src="pics/global_demo.gif" alt="alt text" width="800">
 
 ### 2. 图像变形操作
-<img src="pics/point_demo.gif" alt="alt text" width="800">
+<img src="pics/1.png" alt="alt text" width="400"><img src="pics/2.png" alt="alt text" width="400">
+
+<img src="pics/3.png" alt="alt text" width="400"><img src="pics/4.png" alt="alt text" width="400">
+
+<img src="pics/5.png" alt="alt text" width="400"><img src="pics/6.png" alt="alt text" width="400">
