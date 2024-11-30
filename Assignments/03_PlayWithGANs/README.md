@@ -44,6 +44,7 @@ epoch=0时
 <img src="pics/train0.png" alt="alt text" width="800">
 epoch=200时
 <img src="pics/train200.png" alt="alt text" width="800">
+
 对于val的运行结果为：
 epoch=0时
 <img src="pics/val0.png" alt="alt text" width="800">
