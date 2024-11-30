@@ -26,6 +26,7 @@
 
 #### 损失函数
 条件GAN的总损失由两部分组成：
+
 <img src="pics\LcGAN.png" alt="alt text" width="400">
 以及L1（Lrecon）损失。
 
@@ -64,6 +65,7 @@ epoch=200时
       torchvision          0.14.1
 
 单独测试DragGAN的结果为
+
 <img src="pics/dt2.gif" alt="alt text" width="400">
 
 将DragGAN和face-alignment合并后，运行程序则在Combine_DragGAN中输入以下命令
@@ -72,16 +74,21 @@ python DragGANwithAFL.py
 ```
 
 打开界面时会对图片进行自动描点，如下图
+
 <img src="pics/zdbd.png" alt="alt text" width="600">
 
 可操作台为
+
 <img src="pics/kzmb.png" alt="alt text" width="250">
 
 选择“Smile”，则会自动选点使人物微笑，得到效果如下图
+
 <img src="pics/wx.GIF" alt="alt text" width="400">
 
 选择“Close eyes”，则会自动选点使人物闭眼，得到效果如下图
+
 <img src="pics/by.GIF" alt="alt text" width="400">
 
 选择“Thinning face”，则会自动选点使人瘦脸，得到效果如下图
+
 <img src="pics/sl.GIF" alt="alt text" width="400">
