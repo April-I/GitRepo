@@ -166,19 +166,24 @@ python train.py --colmap_dir data/chair --checkpoint_dir data/chair/checkpoints
 Since we use a pure PyTorch implementation, the training speed and GPU memory usage are far from satisfactory. Also, we do not implement some crucial parts like adaptive Gaussian densification scheme. Run the [original 3DGS implementation](https://github.com/graphdeco-inria/gaussian-splatting) with the same dataset to compare the results.
 
 The result of epoch 0 
+
 <img src="pic/ep0.png" alt="alt text" width="400">
 
 The result of epoch 80 
+
 <img src="pic/ep80.png" alt="alt text" width="400">
 
 The result of epoch 150 
+
 <img src="pic/ep150.png" alt="alt text" width="400">
 
 
 The result of epoch 195 
+
 <img src="pic/ep195.png" alt="alt text" width="400">
 
 results of The original 3DGS
+
 <img src="pic/point.png" alt="alt text" width="200"><img src="pic/point2.png" alt="alt text" width="200">
 
 <img src="pic/11.png" alt="alt text" width="200"> <img src="pic/22.png" alt="alt text" width="207.5"> <img src="pic/33.png" alt="alt text" width="221.5">
